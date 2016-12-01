@@ -1,0 +1,20 @@
+The files /sys/kernel/debug/clock/override.gbus/state and /sys/kernel/debug/clock/override.gbus/rate exist (containing 0 and 38400000 respectively), but attempts to write to them give the No such file or directory error. I'm not quite sure what changed, because this part worked previously (as seen in the output I previously posted). I've tried cold-booting the board and that didn't help. One change I can think of is that I flashed u-boot - I don't know if that's related.
+
+Is there some extra step needed to allow the gbus rate to be modified?
+
+EDIT: I figured it out. You first have to run some CUDA program (I used the device query sample) and then it will allow the clock to be changed. It would be nice if it wasn't necessary to have the samples apps installed just for this though.
+
+Thanks
+
+https://devtalk.nvidia.com/default/topic/894945/jetson-embedded-systems/jetson-tx1/post/4737266/#4737266
+
+https://devtalk.nvidia.com/default/topic/897506/jetson-tk1-cpu-scaling-governor-settings-not-sticking/
+
+TX1 perf script post
+https://devtalk.nvidia.com/default/topic/894945/jetson-tx1/jetson-tx1/post/4734485/#4734485
+
+Setting TX1 GPU settings 
+http://www.slothparadise.com/how-to-install-cuda-on-nvidia-jetson-tx1/
+
+TX1 fan settings
+https://devtalk.nvidia.com/default/topic/952858/themal-control-system-is-unstable/?offset=10

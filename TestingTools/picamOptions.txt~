@@ -1,0 +1,30 @@
+camera = PiCamera(resolution=(640, 480), framerate=30)
+
+camera.sharpness = 100
+camera.saturation = 100
+
+camera.video_stabilization = True
+
+camera.exposure_mode ='auto'
+
+camera.awb_mode = 'off'
+camera.awb_mode = 'auto'
+camera.awb_mode = 'sunlight'
+camera.awb_mode = 'cloudy'
+camera.awb_mode = 'shade'
+camera.awb_mode = 'tungsten'
+camera.awb_mode = 'fluorescent'
+camera.awb_mode = 'incandescent'
+camera.awb_mode = 'flash'
+camera.awb_mode = 'horizon'
+
+camera.image_effect = 'saturation'
+camera.image_effect = 'deinterlace1'
+camera.image_effect = 'deinterlace2'
+
+#-------------------------------------
+
+camera.meter_mode = 'average'
+camera.meter_mode = 'spot'
+camera.meter_mode = 'backlit'
+camera.meter_mode = 'matrix'

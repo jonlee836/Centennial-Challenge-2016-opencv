@@ -1,0 +1,13 @@
+List of Raspberry pi camera settings to try for opencv program.
+
+For all settings I recommend using 30 fps and turning on camera stabilization for the pi cam.
+This will reduce motion blur significantly.
+30 frames processed per second is a waste, 5 is plenty.
+Using waitKey(200) is appx 1/5 of a second.
+
+OPTIONS
+
+default sat, default contrast, min sharpness. This adds an interesting bluring effect that I think will help make the spotty paint 
+look like 1 solid obj.
+
+raspivid -p 0,0,640,480 -o *IP* -w 640 -h 480 -fps 30 -b 3555556 -vs -v -br 50 -co 0 -sh -100 -sa 0 -awb auto -ev 5 -ex auto -rot 0 -mm average
