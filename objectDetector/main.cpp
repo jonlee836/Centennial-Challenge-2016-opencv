@@ -1,6 +1,3 @@
-// g++ -std=c++11 `pkg-config --cflags opencv` main.cpp ObjectDetection.cpp -o main `pkg-config --libs opencv`
-// g++ -std=c++11 main.cpp ObjectDetection.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_gpu -o main
-
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/core/core.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
@@ -26,7 +23,7 @@ int FPS = 30;
 int whiteMinArea = WHITE_MIN_AREA;
 int whiteErodeArea = WHITE_ERODE_AREA;
 
-int blueMinArea = BLUE_MIN_AREA;    // color might be harder to find
+int blueMinArea = BLUE_MIN_AREA;
 int blueErodeArea = BLUE_ERODE_AREA;
 
 int addweight = ADDWEIGHT;
