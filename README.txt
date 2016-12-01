@@ -1,5 +1,5 @@
 
-Source code for computer vision program used by team Max-ed Out in the 2016 nasa SRR challenge. Hardware dependencies for the opencv program were a Jetson tk1/tx1 and raspberry pi 2 + picamera.
+Source code for computer vision program used by team Max-ed Out in the 2016 nasa SRR challenge. Hardware used for the opencv program were a Jetson tk1/tx1 and raspberry pi 2 + picamera.
 
 Demonstration Playlist
 
