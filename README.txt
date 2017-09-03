@@ -4,3 +4,5 @@ Source code for computer vision program used by team Max-ed Out in the 2016 nasa
 Demonstration Playlist
 
 https://www.youtube.com/watch?v=x6Dsqha9JPM&index=1&list=PL2dAOzo3a1SqxkO_c7mVzUcQh5leLHjsX&t=95s
+
+https://www.youtube.com/watch?v=Bbh2f9kGxQA&list=PL2dAOzo3a1SqxkO_c7mVzUcQh5leLHjsX
